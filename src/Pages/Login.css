@@ -1,0 +1,104 @@
+
+.rootLogin{
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    position: relative;
+    height: 100vh;
+    background-image: url(../images/LoginNetNuevo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.LoginName{
+    color: rgb(216, 31, 38);
+    font-family: 'Bebas Neue', cursive;
+    cursor:pointer ;
+    letter-spacing: 4px;
+    margin: 0%;
+    font-size: 2.5rem;
+    padding: 1rem;
+    
+}
+/* .containerDiv{
+    width: 10rem;
+} */
+.IniciarSessionButton{
+    position: fixed;
+    z-index: 15;
+    right: 20px;
+    top: 20px;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 44, 44);
+    border: transparent;
+    cursor: pointer;
+    border: solid white;
+}
+.IniciarSessionButton:hover {
+    color: #000;
+    background-color: #e6e6e6;
+}
+.InfoLogin{
+    grid-column:1/4;
+    grid-row: 2/3;
+    color: white;
+}
+.DivSingUp{
+    grid-column:1/4;
+    grid-row: 2/3;
+}
+.Info1{
+    font-size: 3rem;
+    border-radius: 5px;
+        margin: 0%;
+}
+.Info2{
+    font-size: 2rem;
+    margin-left: 16rem;
+    margin: 0%;
+}
+.Info3{
+    font-size: 1.5rem;
+    margin-left: 16rem;
+    margin: 0%;
+}
+.input{
+    width: 300px;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.inputButton{
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 44, 44);
+    border: transparent;
+    cursor: pointer;
+}
+.inputButton:hover {
+    color: #000;
+    background-color: #e6e6e6;
+}
+.DivConteiner{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: repeat(4, 1fr);
+}
+.divInput{
+    display: flex;
+    justify-content: center;
+}
+.DivInfo{
+    display: flex;
+    justify-content: center;
+    
+}

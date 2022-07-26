@@ -1,0 +1,90 @@
+.rootProfile{
+    background-color: #111;
+    min-height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileTop{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileTop h3{
+    font-size: x-large;
+}
+
+.Profilebutton{
+    position: fixed;
+    z-index: 15;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 44, 44);
+    border: transparent;
+    cursor: pointer;
+}
+.Profilebutton:hover {
+    color: #000;
+    background-color: #e6e6e6;
+}
+.profileInfo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.profileTop img{
+    height: 100px;
+    float: left;
+}
+
+.profileDeatil{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.profileEmailUsuario{
+    background-color: #aaa;
+    font-size: 18px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.profilePlans{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+.profilePlans h5{
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    
+
+}
+.profileSingOut{
+height: 100% !important;
+width: 100% !important;
+}
+.Profilebutton{
+    margin-top: 2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;    
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .profileTop img{
+      display: none;
+    }
+}
+
+.divHeader{
+    width: 100%;
+}

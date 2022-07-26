@@ -1,0 +1,30 @@
+.plansRoot{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.plansRoot h3{
+    font-size: 25px;
+}
+.plansButton{
+    z-index: 15;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 44, 44);
+    border: transparent;
+    cursor: pointer;
+
+}
+.plansButton:hover {
+    color: #000;
+    background-color: #e6e6e6;
+}
+.profileEmailUsuario{
+    background-color: #aaa;
+    font-size: 18px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}

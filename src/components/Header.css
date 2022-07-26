@@ -1,0 +1,43 @@
+.HeaderName{
+    color: rgb(216, 31, 38);
+    font-family: 'Bebas Neue', cursive;
+    cursor:pointer ;
+    letter-spacing: 4px;
+    background-color: transparent !important;
+    font-size: 2rem;
+}
+.Headerbackground{
+    background-color: #111 !important;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.HeaderTransparent{
+    background-color: transparent !important;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.AvatarHeader{
+    cursor:pointer;
+}
+.ToolbarHeader {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.IconButton{
+    font-size: 15px;
+}
+.header .navbar {
+    background-color: transparent !important;
+  }
+  .iconHeader{
+      width: 2rem;
+      height: 2rem;
+      cursor:pointer ;
+  }
+  .navbar {
+    background-color: transparent !important;
+  }

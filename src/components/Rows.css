@@ -1,0 +1,19 @@
+.rowRoot{
+    margin-left: 2rem;
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.posters::-webkit-scrollbar {display: none;}
+
+.poster{
+    max-height: 12rem;
+    object-fit: contain;
+    margin-right: 1rem;
+    transition: 450ms;
+}
+.poster:hover{
+    transform: scale(1.1);
+}
